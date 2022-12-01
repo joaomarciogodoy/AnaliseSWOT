@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Análise SWOT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </head>
+
+  <style>
+    table{
+        border: 1px solid black;
+    }
+
+.title1{
+    color: #CF5472;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+.purple{
+    color: #8264BE;
+    font-weight: bold;
+    font-size:20px
+}
+
+.gray{
+    color: #67757F;
+    font-weight: bold;
+    font-size:20px
+}
+
+.btnform{
+width:100%;
+font-size: 20px;
+font-weight: bold;
+
+}
+
+textarea{
+  font-weight: bold;
+ text-transform: uppercase;
+}
+
+  </style>
+  <body>
+  
+
+    <div class="container">
+        <form>
+            <!-- <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button> -->
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th class="text-center title1" colspan="2">INTERNO</th>
+                    <th class="text-center title1" colspan="2">EXTERNO</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-center purple ">FORÇA <br> <br>
+                        <img src="./403019_avatar_male_man_person_user_iscon.png" alt="">
+                    </td>
+                    <td class="text-center gray">FRAQUEZA <br> <br>
+                        <img src="./403019_avatar_male_man_person_user_iscon.png" alt="">
+                    </td>
+                    <td class="text-center purple ">OPORTUNIDADE <br> <br>
+                        <img src="./403019_avatar_male_man_person_user_iscon.png" alt="">
+                    </td>
+                    <td class="text-center gray ">AMEAÇAS <br> <br>
+                        <img src="./403019_avatar_male_man_person_user_iscon.png" alt="">
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-center">
+                        <textarea name="" id="forca" cols="25" rows="2"></textarea>
+                    </td>
+                    <td class="text-center">
+                      <textarea name="" id="fraqueza" cols="25" rows="2"></textarea>
+                  </td>
+                  <td class="text-center">
+                    <textarea name="" id="oportunidade" cols="25" rows="2"></textarea>
+                </td>
+                <td class="text-center">
+                  <textarea name="" id="ameacas" cols="25" rows="2"></textarea>
+              </td>                 
+                  </tr>
+
+                  <tr>
+                    <td class="text-center">
+                        <textarea name="" id="forca1" cols="25" rows="2"></textarea>
+                    </td>
+                    <td class="text-center">
+                      <textarea name="" id="fraqueza1" cols="25" rows="2"></textarea>
+                  </td>
+                  <td class="text-center">
+                    <textarea name="" id="oportunidade1" cols="25" rows="2"></textarea>
+                </td>
+                <td class="text-center">
+                  <textarea name="" id="ameacas1" cols="25" rows="2"></textarea>
+              </td>                 
+                  </tr>   
+
+                  <tr>
+                    <td class="text-center">
+                        <textarea name="" id="forca2" cols="25" rows="2"></textarea>
+                    </td>
+                    <td class="text-center">
+                      <textarea name="" id="fraqueza2" cols="25" rows="2"></textarea>
+                  </td>
+                  <td class="text-center">
+                    <textarea name="" id="oportunidade2" cols="25" rows="2"></textarea>
+                </td>
+                <td class="text-center">
+                  <textarea name="" id="ameacas2" cols="25" rows="2"></textarea>
+              </td>                 
+                  </tr>   
+
+                  <tr>
+                    <td class="text-center">
+                        <textarea name="" id="forca3" cols="25" rows="2"></textarea>
+                    </td>
+                    <td class="text-center">
+                      <textarea name="" id="fraqueza3" cols="25" rows="2"></textarea>
+                  </td>
+                  <td class="text-center">
+                    <textarea name="" id="oportunidade3" cols="25" rows="2"></textarea>
+                </td>
+                <td class="text-center">
+                  <textarea name="" id="ameacas3" cols="25" rows="2"></textarea>
+              </td>                 
+                  </tr>   
+
+                  <tr>
+                    <td class="text-center">
+                        <textarea name="" id="forca4" cols="25" rows="2"></textarea>
+                    </td>
+                    <td class="text-center">
+                      <textarea name="" id="fraqueza4" cols="25" rows="2"></textarea>
+                  </td>
+                  <td class="text-center">
+                    <textarea name="" id="oportunidade4" cols="25" rows="2"></textarea>
+                </td>
+                <td class="text-center">
+                  <textarea name="" id="ameacas4" cols="25" rows="2"></textarea>
+              </td>                 
+                  </tr>   
+
+                  
+                 
+                </tbody>
+              </table>
+
+              <button class="btn btn-success btnform" id="limpasession">LIMPAR</button>
+          </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <script>
+    $(function (){
+    
+    if(sessionStorage.forca){
+      $('#forca').val(sessionStorage.forca)
+    }
+      $('#forca').keyup(function(){
+        sessionStorage.forca = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.fraqueza){
+      $('#fraqueza').val(sessionStorage.fraqueza)
+    }
+      $('#fraqueza').keyup(function(){
+        sessionStorage.fraqueza = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.oportunidade){
+      $('#oportunidade').val(sessionStorage.oportunidade)
+    }
+      $('#oportunidade').keyup(function(){
+        sessionStorage.oportunidade = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.ameacas){
+      $('#ameacas').val(sessionStorage.ameacas)
+    }
+      $('#ameacas').keyup(function(){
+        sessionStorage.ameacas = $(this).val()
+      })
+    })
+
+
+    $(function (){
+    
+    if(sessionStorage.forca1){
+      $('#forca1').val(sessionStorage.forca1)
+    }
+      $('#forca1').keyup(function(){
+        sessionStorage.forca1 = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.fraqueza1){
+      $('#fraqueza1').val(sessionStorage.fraqueza1)
+    }
+      $('#fraqueza1').keyup(function(){
+        sessionStorage.fraqueza1 = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.oportunidade1){
+      $('#oportunidade1').val(sessionStorage.oportunidade1)
+    }
+      $('#oportunidade1').keyup(function(){
+        sessionStorage.oportunidade1 = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.ameacas1){
+      $('#ameacas1').val(sessionStorage.ameacas1)
+    }
+      $('#ameacas1').keyup(function(){
+        sessionStorage.ameacas1 = $(this).val()
+      })
+    })
+
+
+    
+    $(function (){
+    
+    if(sessionStorage.forca2){
+      $('#forca2').val(sessionStorage.forca2)
+    }
+      $('#forca2').keyup(function(){
+        sessionStorage.forca2 = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.fraqueza2){
+      $('#fraqueza2').val(sessionStorage.fraqueza2)
+    }
+      $('#fraqueza2').keyup(function(){
+        sessionStorage.fraqueza2 = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.oportunidade2){
+      $('#oportunidade2').val(sessionStorage.oportunidade2)
+    }
+      $('#oportunidade2').keyup(function(){
+        sessionStorage.oportunidade2 = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.ameacas2){
+      $('#ameacas2').val(sessionStorage.ameacas2)
+    }
+      $('#ameacas2').keyup(function(){
+        sessionStorage.ameacas2 = $(this).val()
+      })
+    })
+
+
+
+    $(function (){
+    
+    if(sessionStorage.forca3){
+      $('#forca3').val(sessionStorage.forca3)
+    }
+      $('#forca3').keyup(function(){
+        sessionStorage.forca3 = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.fraqueza3){
+      $('#fraqueza3').val(sessionStorage.fraqueza3)
+    }
+      $('#fraqueza3').keyup(function(){
+        sessionStorage.fraqueza3 = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.oportunidade3){
+      $('#oportunidade3').val(sessionStorage.oportunidade3)
+    }
+      $('#oportunidade3').keyup(function(){
+        sessionStorage.oportunidade3 = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.ameacas3){
+      $('#ameacas3').val(sessionStorage.ameacas3)
+    }
+      $('#ameacas3').keyup(function(){
+        sessionStorage.ameacas3 = $(this).val()
+      })
+    })
+
+
+    
+    $(function (){
+    
+    if(sessionStorage.forca4){
+      $('#forca4').val(sessionStorage.forca4)
+    }
+      $('#forca4').keyup(function(){
+        sessionStorage.forca4 = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.fraqueza4){
+      $('#fraqueza4').val(sessionStorage.fraqueza4)
+    }
+      $('#fraqueza4').keyup(function(){
+        sessionStorage.fraqueza4 = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.oportunidade4){
+      $('#oportunidade4').val(sessionStorage.oportunidade4)
+    }
+      $('#oportunidade4').keyup(function(){
+        sessionStorage.oportunidade4 = $(this).val()
+      })
+    })
+
+    $(function (){
+    
+    if(sessionStorage.ameacas4){
+      $('#ameacas4').val(sessionStorage.ameacas4)
+    }
+      $('#ameacas4').keyup(function(){
+        sessionStorage.ameacas4 = $(this).val()
+      })
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //limpar
+    $(function (){
+    
+      $('#limpasession').click(function(){
+       sessionStorage.forca = ""
+       sessionStorage.fraqueza = ""
+       sessionStorage.oportunidade = ""
+       sessionStorage.ameacas = ""
+    
+       sessionStorage.forca1 = ""
+       sessionStorage.fraqueza1 = ""
+       sessionStorage.oportunidade1 = ""
+       sessionStorage.ameacas1 = ""
+
+       sessionStorage.forca2 = ""
+       sessionStorage.fraqueza2 = ""
+       sessionStorage.oportunidade2 = ""
+       sessionStorage.ameacas2 = ""
+
+       sessionStorage.forca3 = ""
+       sessionStorage.fraqueza3 = ""
+       sessionStorage.oportunidade3 = ""
+       sessionStorage.ameacas3 = ""
+
+       sessionStorage.forca4 = ""
+       sessionStorage.fraqueza4 = ""
+       sessionStorage.oportunidade4 = ""
+       sessionStorage.ameacas4 = ""
+
+       sessionStorage.removeItem('forca')
+       sessionStorage.removeItem('forca1')
+       sessionStorage.removeItem('forca2')
+       sessionStorage.removeItem('forca3')
+       sessionStorage.removeItem('forca4')
+
+       sessionStorage.removeItem('fraqueza')
+       sessionStorage.removeItem('fraqueza1')
+       sessionStorage.removeItem('fraqueza2')
+       sessionStorage.removeItem('fraqueza3')
+       sessionStorage.removeItem('fraqueza4')
+      
+       sessionStorage.removeItem('oportunidade')
+       sessionStorage.removeItem('oportunidade1')
+       sessionStorage.removeItem('oportunidade2')
+       sessionStorage.removeItem('oportunidade3')
+       sessionStorage.removeItem('oportunidade4')
+
+       sessionStorage.removeItem('ameacas')
+       sessionStorage.removeItem('ameacas1')
+       sessionStorage.removeItem('ameacas2')
+       sessionStorage.removeItem('ameacas3')
+       sessionStorage.removeItem('ameacas4')
+
+       location.reload()
+      
+      })
+    })
+    </script>
+
+  </body>
+</html>
