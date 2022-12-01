@@ -5,169 +5,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Análise SWOT</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    </head>
+    
+  </head>
 
   <style>
-    table{
-        border: 1px solid black;
-    }
-
-.title1{
-    color: #CF5472;
-    font-weight:bold;
-    font-size: 30px;
-}
-
-.purple{
-    color: #8264BE;
-    font-weight: bold;
-    font-size:20px
-}
-
-.gray{
-    color: #67757F;
-    font-weight: bold;
-    font-size:20px
-}
-
-.btnform{
-width:100%;
-font-size: 20px;
-font-weight: bold;
+.container-grid{
+  width: 425px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    text-align: center;
 
 }
 
-textarea{
+h1{
+ grid-column: span 2;
+ margin-bottom:20px
+}
+
+input{
   font-weight: bold;
- text-transform: uppercase;
+  text-transform: uppercase;
 }
+
+.purple {
+  font-size: 30px;
+  color: #8969C8;
+  font-weight: bold;
+}
+
+.gray {
+  font-size: 30px;
+  color: #67757F;
+  font-weight: bold;
+}
+
+.card{
+  margin: 0 auto;
+}
+
+
 
   </style>
   <body>
   
 
-    <div class="container">
-        <form>
-            <!-- <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button> -->
-            <table class="table table-responsive">
-                <thead>
-                  <tr>
-                    <th class="text-center title1" colspan="2">INTERNO</th>
-                    <th class="text-center title1" colspan="2">EXTERNO</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="text-center purple ">FORÇA <br> <br>
-                        <img src="./403019_avatar_male_man_person_user_iscon.png" alt="">
-                    </td>
-                    <td class="text-center gray">FRAQUEZA <br> <br>
-                        <img src="./403019_avatar_male_man_person_user_iscon.png" alt="">
-                    </td>
-                    <td class="text-center purple ">OPORTUNIDADE <br> <br>
-                        <img src="./403019_avatar_male_man_person_user_iscon.png" alt="">
-                    </td>
-                    <td class="text-center gray ">AMEAÇAS <br> <br>
-                        <img src="./403019_avatar_male_man_person_user_iscon.png" alt="">
-                    </td>
-                  </tr>
+    <div class="container-grid">
+      <h1 class="card-title">INTERNO</h1>
+    
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./403019_avatar_male_man_person_user_iscon.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title purple">FORÇA</h5>
+        <hr>
+          <input id="forca" type="text">
+        <hr>
+        <input id="forca1" type="text">
+        <hr>
+        <input id="forca2" type="text">
+        <hr>
+        <input id="forca3" type="text">
+        <hr>
+        <input id="forca4" type="text">
+        <hr>
+      
+     
+        </div>
+      </div> 
+      
+        
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./403019_avatar_male_man_person_user_iscon.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title gray">FRAQUEZA</h5>
 
-                  <tr>
-                    <td class="text-center">
-                        <textarea name="" id="forca" cols="25" rows="2"></textarea>
-                    </td>
-                    <td class="text-center">
-                      <textarea name="" id="fraqueza" cols="25" rows="2"></textarea>
-                  </td>
-                  <td class="text-center">
-                    <textarea name="" id="oportunidade" cols="25" rows="2"></textarea>
-                </td>
-                <td class="text-center">
-                  <textarea name="" id="ameacas" cols="25" rows="2"></textarea>
-              </td>                 
-                  </tr>
+          <hr>
+          <input id="fraqueza" type="text">
+        <hr>
+        <input id="fraqueza1" type="text">
+        <hr>
+        <input id="fraqueza2" type="text">
+        <hr>
+        <input id="fraqueza3" type="text">
+        <hr>
+        <input id="fraqueza4" type="text">
+        <hr>
+         
+        </div>
+      </div> 
+      
+      <h1 class="card-title">EXTERNO</h1>
 
-                  <tr>
-                    <td class="text-center">
-                        <textarea name="" id="forca1" cols="25" rows="2"></textarea>
-                    </td>
-                    <td class="text-center">
-                      <textarea name="" id="fraqueza1" cols="25" rows="2"></textarea>
-                  </td>
-                  <td class="text-center">
-                    <textarea name="" id="oportunidade1" cols="25" rows="2"></textarea>
-                </td>
-                <td class="text-center">
-                  <textarea name="" id="ameacas1" cols="25" rows="2"></textarea>
-              </td>                 
-                  </tr>   
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./403019_avatar_male_man_person_user_iscon.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title purple">OPORTUNIDADE</h5>
+          <hr>
+          <input id="oportunidade" type="text">
+        <hr>
+        <input id="oportunidade1" type="text">
+        <hr>
+        <input id="oportunidade2" type="text">
+        <hr>
+        <input id="oportunidade3" type="text">
+        <hr>
+        <input id="oportunidade4" type="text">
+        <hr>
+         
+        </div>
+      </div> 
+      
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./403019_avatar_male_man_person_user_iscon.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title gray">AMEAÇAS</h5>
 
-                  <tr>
-                    <td class="text-center">
-                        <textarea name="" id="forca2" cols="25" rows="2"></textarea>
-                    </td>
-                    <td class="text-center">
-                      <textarea name="" id="fraqueza2" cols="25" rows="2"></textarea>
-                  </td>
-                  <td class="text-center">
-                    <textarea name="" id="oportunidade2" cols="25" rows="2"></textarea>
-                </td>
-                <td class="text-center">
-                  <textarea name="" id="ameacas2" cols="25" rows="2"></textarea>
-              </td>                 
-                  </tr>   
+          <hr>
+          <input id="ameacas" type="text">
+        <hr>
+        <input id="ameacas1" type="text">
+        <hr>
+        <input id="ameacas2" type="text">
+        <hr>
+        <input id="ameacas3" type="text">
+        <hr>
+        <input id="ameacas4" type="text">
+        <hr>
+        </div>
+      </div> 
+      
 
-                  <tr>
-                    <td class="text-center">
-                        <textarea name="" id="forca3" cols="25" rows="2"></textarea>
-                    </td>
-                    <td class="text-center">
-                      <textarea name="" id="fraqueza3" cols="25" rows="2"></textarea>
-                  </td>
-                  <td class="text-center">
-                    <textarea name="" id="oportunidade3" cols="25" rows="2"></textarea>
-                </td>
-                <td class="text-center">
-                  <textarea name="" id="ameacas3" cols="25" rows="2"></textarea>
-              </td>                 
-                  </tr>   
 
-                  <tr>
-                    <td class="text-center">
-                        <textarea name="" id="forca4" cols="25" rows="2"></textarea>
-                    </td>
-                    <td class="text-center">
-                      <textarea name="" id="fraqueza4" cols="25" rows="2"></textarea>
-                  </td>
-                  <td class="text-center">
-                    <textarea name="" id="oportunidade4" cols="25" rows="2"></textarea>
-                </td>
-                <td class="text-center">
-                  <textarea name="" id="ameacas4" cols="25" rows="2"></textarea>
-              </td>                 
-                  </tr>   
 
-                  
-                 
-                </tbody>
-              </table>
-
-              <button class="btn btn-success btnform" id="limpasession">LIMPAR</button>
-          </form>
-    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
